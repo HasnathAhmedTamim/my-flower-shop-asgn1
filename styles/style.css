@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.first-section-container {
+  background: rgba(229, 84, 115, 0.1);
+
+  height: 84vh;
+  display: flex;
+  justify-content: space-between;
+  gap: 97px;
+}
+.title-img {
+  width: 635px;
+  height: 800px;
+
+  /* height : 100 max-content; */
+  margin-right: 240px;
+  /* border: #272727 solid 1px; */
+  position: relative;
+  top: -13px;
+}
+.title-container {
+  /* border: 1px solid black; */
+  /* background-color: brown; */
+
+  margin-left: 240px;
+  padding: 10px;
+  text-align: left;
+  margin-top: 200px;
+  margin-bottom: 360px;
+}
+#one {
+  font-family: "Lato", sans-serif;
+  color: #272727;
+
+  font-size: 80px;
+
+  font-weight: 800;
+  padding-bottom: 32px;
+}
+.title-container p {
+  color: rgba(39, 39, 39, 0.6);
+  font-family: Lato;
+  font-size: 18px;
+
+  font-weight: 400;
+  line-height: 30px;
+  padding-bottom: 32px;
+}
+.shop-now-btn {
+  border-radius: 8px;
+  border: none;
+  background: #e55473;
+  padding: 20px 44px;
+  color: #fff;
+  font-family: Lato;
+  font-size: 20px;
+
+  font-weight: 700;
+}
+.second-section{
+    /* background-color: aqua; */
+    
+}
+.second-section-container h4 {
+  color: #272727;
+  text-align: center;
+  font-family: Lato;
+  font-size: 40px;
+
+  font-weight: 800;
+  margin-top: 174px;
+  margin-bottom: 24px;
+
+}
+.primary-p {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-family: Lato;
+  font-size: 18px;
+  
+  font-weight: 400;
+  margin-bottom: 48px;
+  
+}
