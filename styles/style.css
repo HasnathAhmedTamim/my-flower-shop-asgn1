@@ -88,7 +88,14 @@
   gap: 24px;
   margin-bottom: 100px;
 }
-
+.img-fl1{
+    position: relative;
+    top: 30px;
+}
+ .img-fl3{
+    position: relative;
+    top: 20px;
+}
 #x {
   border-radius: 300px 300px 0px 0px;
   background: rgba(167, 33, 98, 0.15);
@@ -133,3 +140,4 @@ h6 {
   position: relative;
   top: 45px;
 }
+
