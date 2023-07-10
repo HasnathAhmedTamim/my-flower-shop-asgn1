@@ -59,9 +59,8 @@
 
   font-weight: 700;
 }
-.second-section{
-    /* background-color: aqua; */
-    
+.second-section {
+  /* background-color: aqua; */
 }
 .second-section-container h4 {
   color: #272727;
@@ -72,15 +71,65 @@
   font-weight: 800;
   margin-top: 174px;
   margin-bottom: 24px;
-
 }
 .primary-p {
   color: rgba(39, 39, 39, 0.6);
   text-align: center;
   font-family: Lato;
   font-size: 18px;
-  
+
   font-weight: 400;
   margin-bottom: 48px;
+}
+
+.third-section-flower-tree-container {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 100px;
+}
+
+#x {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+  padding: 110px 78px 0px 76px;
+
+  /* height: 46vh; */
+}
+#y {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(5, 151, 160, 0.15);
+  padding: 117px 47px 51px 47px;
+
+  /* height: 34vh; */
+}
+#z {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(71, 125, 17, 0.15);
+  padding: 77px 75px 0px 75px;
+
+  /* height: 50vh; */
+}
+h6 {
+  color: #272727;
+  text-align: center;
+  font-family: Lato;
+  font-size: 14px;
+
+  font-weight: 700;
+
+  text-decoration-line: underline;
+}
+#flower1 {
+  position: relative;
+  top: 60px;
   
+}
+#flower2 {
+  position: relative;
+  top: 100px;
+}
+#flower3 {
+  position: relative;
+  top: 45px;
 }
