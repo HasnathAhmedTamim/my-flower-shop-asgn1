@@ -2,34 +2,30 @@
   margin: 0;
   padding: 0;
 }
+/* first section */
 .first-section-container {
   background: rgba(229, 84, 115, 0.1);
-
   height: 84vh;
   display: flex;
   justify-content: space-between;
   gap: 97px;
 }
+/* set image position */
 .title-img {
   width: 635px;
   height: 800px;
-
-  /* height : 100 max-content; */
   margin-right: 240px;
-  /* border: #272727 solid 1px; */
   position: relative;
   top: -13px;
 }
 .title-container {
-  /* border: 1px solid black; */
-  /* background-color: brown; */
-
   margin-left: 240px;
   padding: 10px;
   text-align: left;
   margin-top: 200px;
   margin-bottom: 360px;
 }
+
 #one {
   font-family: "Lato", sans-serif;
   color: #272727;
@@ -59,7 +55,7 @@
 
   font-weight: 700;
 }
-
+/* second section */
 .second-section-container h4 {
   color: #272727;
   text-align: center;
@@ -79,7 +75,7 @@
   font-weight: 400;
   margin-bottom: 48px;
 }
-
+/* Third section */
 .third-section-flower-tree-container {
   width: 100%;
   margin: 0;
@@ -88,34 +84,31 @@
   gap: 24px;
   margin-bottom: 400px;
 }
+/* first img pos */
 .img-fl1 {
   position: relative;
   top: 30px;
 }
+/* 3rd img pos */
 .img-fl3 {
   position: relative;
   top: 20px;
 }
+/* flower id */
 #x {
   border-radius: 300px 300px 0px 0px;
   background: rgba(167, 33, 98, 0.15);
   padding: 110px 78px 0px 76px;
-
-  /* height: 46vh; */
 }
 #y {
   border-radius: 300px 300px 0px 0px;
   background: rgba(5, 151, 160, 0.15);
   padding: 117px 47px 51px 47px;
-
-  /* height: 34vh; */
 }
 #z {
   border-radius: 300px 300px 0px 0px;
   background: rgba(71, 125, 17, 0.15);
   padding: 77px 75px 0px 75px;
-
-  /* height: 50vh; */
 }
 h6 {
   color: #272727;
@@ -127,6 +120,7 @@ h6 {
 
   text-decoration-line: underline;
 }
+/* heading flower --id  */
 #flower1 {
   position: relative;
   top: 60px;
@@ -150,9 +144,6 @@ h6 {
   margin-bottom: 200px;
 }
 .hot-deals {
-  /* border: 1px solid black; */
-  /* background-color: brown; */
-
   margin-left: 390px;
   padding: 10px;
   text-align: center;
@@ -185,7 +176,6 @@ span {
   color: #fff;
   font-family: Lato;
   font-size: 20px;
-
   font-weight: 700;
 }
 .hot-deal-para {
@@ -193,7 +183,6 @@ span {
   text-align: center;
   font-family: Lato;
   font-size: 18px;
-
   font-weight: 400;
   margin-bottom: 40px;
 }
@@ -205,39 +194,40 @@ span {
 }
 .instra-tittle {
   color: #272727;
-
   font-family: Lato;
   font-size: 40px;
-
   font-weight: 800;
   padding-bottom: 24px;
 }
 .instra-info {
   color: rgba(39, 39, 39, 0.6);
-
   font-family: Lato;
   font-size: 18px;
-
   font-weight: 400;
   padding-bottom: 48px;
 }
-/* six-section */
-.sixth-section-container {
-  width: 100%;
-  margin: 0;
-  display: flex;
-  justify-content: space-around;
 
-  /* margin-left: 200px;
-  margin-right: 200px;
-  margin-bottom: 128px; */
+              /* six-section */
+.sixth-section-container {
+  /* width: 100%; */
+  /* height: 50vh; */
+  
+  display: flex;
+  /* position: relative; */
+  justify-content: center;
+  gap: 24px;
+  left: 240px;
   padding-bottom: 200px;
 }
-
+/* .position-flower {
+  position: relative;
+  gap: 24px;
+} */
+/* seven-section */
 .seventh-section {
   width: 100%;
   height: 50vh;
-  background-image: url("../Flower\ Asset/rectangle 9.png");
+  background-image: url('../Flower\ Asset/rectangle 9.png');
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -249,7 +239,7 @@ span {
 .seventh-section {
   margin-bottom: 150px;
 }
-
+/* input field */
 input[type="email"] {
   border-radius: 8px;
   background: #fff;
@@ -262,9 +252,8 @@ input[type="email"] {
 
   padding: 20px 200px 20px 20px;
   margin-bottom: 200px;
-  /* position: relative;
-  bottom: 350px; */
 }
+/* subscription button */
 .sub-now-btn {
   border-radius: 8px;
   border: none;
@@ -273,15 +262,10 @@ input[type="email"] {
   color: #fff;
   font-family: Lato;
   font-size: 20px;
-
   font-weight: 700;
-  /* position: relative;
-  bottom: 350px; */
 }
-.sub {
-  /* position: relative;
-  bottom: 350px; */
-}
+/* footer section */
+
 .footer {
   width: 100%;
   height: 50vh;
@@ -315,20 +299,24 @@ input[type="email"] {
 .footer-container {
   margin-top: 120px;
 }
-.bonus {
+/* Bonus Section */
+
+.sixth-section-bonus {
+  
   margin-top: 100px;
-  /* background: rgba(229, 84, 115, 0.05); */
+  
   text-align: center;
 }
+
 .customer-title {
-  padding-top: 100px;
+  padding-bottom: 100px;
   color: #272727;
   text-align: center;
   font-family: Lato;
   font-size: 40px;
-  font-style: normal;
+
   font-weight: 800;
-  line-height: normal;
+  
 }
 .bonus-btn {
   border-radius: 8px;
