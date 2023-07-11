@@ -81,6 +81,8 @@
 }
 
 .third-section-flower-tree-container {
+  width: 100%;
+  margin: 0;
   display: flex;
   justify-content: center;
   gap: 24px;
@@ -139,6 +141,8 @@ h6 {
 }
 /* fourth section */
 .fourth-section-container {
+  width: 100%;
+  margin: 0;
   display: flex;
   justify-content: space-between;
   gap: 186px;
@@ -201,21 +205,105 @@ span {
 }
 .instra-tittle {
   color: #272727;
-  
+
   font-family: Lato;
   font-size: 40px;
-  
+
   font-weight: 800;
   padding-bottom: 24px;
-  
 }
 .instra-info {
   color: rgba(39, 39, 39, 0.6);
-  
+
   font-family: Lato;
   font-size: 18px;
-  
+
   font-weight: 400;
   padding-bottom: 48px;
-  
+}
+/* six-section */
+.sixth-section-container {
+  width: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+
+  /* margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 128px; */
+  padding-bottom: 200px;
+}
+
+.seventh-section {
+  width: 100%;
+  height: 50vh;
+  background-image: url("../Flower\ Asset/rectangle 9.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.seventh-section-container{
+  text-align:  center;
+  position: relative;
+  top: 100px;
+}
+
+input[type="email"] {
+  border-radius: 8px;
+  background: #fff;
+
+  text-align: center;
+  font-family: Lato;
+  font-size: 16px;
+
+  font-weight: 400;
+
+  padding: 20px 200px 20px 20px;
+  margin-bottom: 200px;
+  /* position: relative;
+  bottom: 350px; */
+}
+.sub-now-btn {
+  border-radius: 8px;
+  border: none;
+  background: #e55473;
+  padding: 20px 44px;
+  color: #fff;
+  font-family: Lato;
+  font-size: 20px;
+
+  font-weight: 700;
+  /* position: relative;
+  bottom: 350px; */
+}
+.sub {
+  /* position: relative;
+  bottom: 350px; */
+}
+.footer {
+  border: #e55473 solid 3px;
+
+  background: #111010;
+  margin-top: 200px;
+}
+.footer-title {
+  text-align: center;
+  color: white;
+}
+.para1 {
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  font-family: Lato;
+  font-size: 18px;
+
+  font-weight: 400;
+}
+.footerpara {
+  color: rgba(255, 255, 255, 0.4);
+  text-align: center;
+  font-family: Lato;
+  font-size: 16px;
+
+  font-weight: 400;
+  padding-bottom: 32px;
+  padding-top: 24px;
 }
