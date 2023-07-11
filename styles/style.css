@@ -189,8 +189,33 @@ span {
   text-align: center;
   font-family: Lato;
   font-size: 18px;
-  
+
   font-weight: 400;
   margin-bottom: 40px;
+}
+/* fifth-section */
+.fifth-section-container {
+  width: 100%;
+  margin: 0;
+  text-align: center;
+}
+.instra-tittle {
+  color: #272727;
+  
+  font-family: Lato;
+  font-size: 40px;
+  
+  font-weight: 800;
+  padding-bottom: 24px;
+  
+}
+.instra-info {
+  color: rgba(39, 39, 39, 0.6);
+  
+  font-family: Lato;
+  font-size: 18px;
+  
+  font-weight: 400;
+  padding-bottom: 48px;
   
 }
